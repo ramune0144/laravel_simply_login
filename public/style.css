@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+body{
+
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 22, 29);
+}
+
+.login_card{
+    width: 30rem;
+    height: 35rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    font-family: kanit;
+
+}
+.login_card h1{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: rgb(19, 22, 29);
+    font-family: inherit;
+
+}
+.input--group{
+    width: 80%;
+    height: 3rem;
+    margin: 2rem auto;
+}
+
+.input--label{
+    font-size: 1.2rem;
+    color: rgb(19, 22, 29);
+    font-family: inherit;
+}
+.input--text{
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid rgb(19, 22, 29);
+    outline: none;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+.input--submit--group{
+    width: 80%;
+    height: 3rem;
+    margin: 5rem auto;
+}
+.btn--submit{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(19, 22, 29);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: inherit;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn--submit:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 22, 29);
+    border: 1px solid rgb(19, 22, 29);
+    transition: 0.5s;
+}
+
+.login_class_footer{
+    width: 100%;
+    height: 3rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: kanit;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
